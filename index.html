@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Name</label><br>
+            <input id="name" type="text" placeholder="Enter your name" required>
+        </div><br>
+        <div>
+            <label for="phone_number">Phone number</label><br>
+            <input id="phone_number" type="tel" placeholder="Enter your phone number" required>
+        </div><br>
+        <div>
+            <label for="email">Email</label><br>
+            <input id="email" type="email" placeholder="Enter your email" required>
+        </div><br>
+        <div>
+            <label for="password">Password</label><br>
+            <input id="password" type="password" placeholder="Create password" required>
+        </div>
+
+        <div>
+            <p>Your favorite music?</p>
+            <select required>
+                <option selected value>Rock</option>
+                <option >Pop</option>
+                <option >Metal</option>
+                <option >Rap</option>
+            </select>
+        </div>
+        <div>
+            <p>Your favorite film?</p>
+            <label>
+            <input type="radio" name="radio-group" checked>Incepcion
+            </label><br>
+
+            <label>
+            <input type="radio" name="radio-group">Green Mile
+            </label><br>
+
+            <label>
+            <input type="radio" name="radio-group">Forrest Gump
+            </label>
+        </div>
+        <div>
+            <p>Your comments/suggestions</p>
+            <textarea cols="20" rows="7"></textarea>
+        </div><br>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
